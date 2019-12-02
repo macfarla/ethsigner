@@ -1,0 +1,10 @@
+[metadata]
+createdAt = 2011-11-01T12:15:30Z
+description = "Example of Azure Key Vault based configuration"
+
+[signing]
+type = "azure-signer"
+client-secret-path = "/mypath/mysecretfile"
+key-name = "<KeyName>"
+key-version = "<KeyVersion>"
+keyvault-name = "<KeyVaultName>"
